@@ -18,6 +18,8 @@
         android:layout_marginBottom="24dp"/>
 
 
+
+
     <androidx.cardview.widget.CardView
         android:layout_width="300dp"
         android:layout_height="180dp"
@@ -34,6 +36,16 @@
         android:orientation="vertical"
         android:padding="20dp"
         android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/keyIdTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KEY: Nessuna Chiave"
+            android:textSize="20sp"
+            android:fontFamily="monospace"
+            android:textColor="#FFFFFF"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"/>
 
 
 
